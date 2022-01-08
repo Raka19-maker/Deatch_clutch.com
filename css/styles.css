@@ -1,0 +1,194 @@
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat-Bold";
+}
+h4{
+  line-height: 1.5rem;
+}
+
+#title{
+  background-color: Black;
+  color: white;
+}
+.container-fluid{
+
+  padding: 2% 2%;
+}
+
+
+/* Navigation Bar */
+.navbar{
+  padding:0 ;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 2% 3% 0;
+
+
+}
+
+/* Title Image */
+.title-image{
+  width:60%;
+
+}
+/* VideoBcakgrondTrial */
+#videoDiv2 {
+  width:100%;
+   margin:0;
+   display:block;
+   position: relative;
+   /* position: absolute; */
+   /* z-index: -1; */
+}
+
+#video2{
+  width :100%;
+  height: auto;
+   /* position: relative; */
+
+}
+
+.top-head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+  .top-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+
+/* Features */
+#features{
+  background-color: #fff;
+  padding: 8% 15%;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: grey;
+}
+
+#Theteam{
+
+  text-align: center;
+
+}
+/* carouselvideo */
+#videoDiv3 {
+  width:100%;
+   margin:0;
+   display:block;
+   position: relative;
+}
+
+#video3{
+  width :100%;
+  height: 20%;
+
+
+}
+
+
+
+   .top-carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 50%;
+    color: black;
+  }
+
+  .carousel-item{
+    text-align: center;
+    padding:5% 5%;
+  }
+.team_image{
+  width: 20%;
+  margin: 5px;
+  border-radius: 100%;
+}
+
+.presslogo{
+  width: 15%;
+  margin: 0px 30px  ;
+}
+.pl{
+  text-align:  center;
+
+}
+
+/* Sources section */
+#joinus{
+  padding: 80px;
+  text-align: center;
+}
+
+.source-column{
+  padding: 3% 2%;
+}
+
+/* Fotter Section */
+#footer{
+  padding: 4% 10%;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.social_icon{
+  padding: 20px 10px;
+
+}
